@@ -2,6 +2,7 @@ img {
   width: 175px;
   float:left;
   margin-left: 40px;
+  border: 1px solid grey;
 }
 img.nf {
   border: none;
@@ -17,15 +18,16 @@ img.hu {
 img.pr {
   height: 80px;
 }
-div h3 {
+.idHeading {
   width: 350px;
   float: none;
-  margin-top: 165px;
+  margin-top: 50px;
+  padding-top: 120px;
   margin-left: auto;
   margin-right: auto;
   text-transform:capitalize;
 }
-div h3 span {
+.idHeading span {
   color:rgb(28, 59, 85);
   font-weight: bold;
   margin-left: 10px;
